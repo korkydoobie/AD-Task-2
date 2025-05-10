@@ -25,4 +25,6 @@
         else{
             echo "Attend your class!";
         }
+
+        echo "</div>";
     }
