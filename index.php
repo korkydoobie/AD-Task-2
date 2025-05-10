@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Activity</title>
-    <link rel="stylesheet" href="/page/assets/css/landingPage.css">
+    <link rel="stylesheet" href="assets/css/landingPage.css">
 </head>
     <body>
         <?php
