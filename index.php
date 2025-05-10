@@ -17,4 +17,12 @@
         $day = $days[$i];
         echo "<div class = 'day-box>";
         echo "<b>$day: </b>";
+
+        //conditions
+        if($day == "Saturday" || $day == "Sunday"){
+            echo "Rest day!";
+        }
+        else{
+            echo "Attend your class!";
+        }
     }
