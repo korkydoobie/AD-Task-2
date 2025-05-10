@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Tasks</title>
+        <link rel="stylesheet" href="page/assets/css/tasksPage.css">
     </head>
     <body>
         <?php
