@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Tasks</title>
-        <link rel="stylesheet" href="page/assets/css/tasksPage.css">
+        <link rel="stylesheet" href="assets/css/tasksPage.css">
     </head>
     <body>
         <?php
@@ -18,5 +18,6 @@
             }
             echo "</ul>";
         ?>
+        <a href="../../index.php" class="button">Back to Weekly Routine</a>
     </body>
 </html>
