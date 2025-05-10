@@ -16,7 +16,7 @@
         //loops
         for($i=0; $i<count($days); $i++){
             $day = $days[$i];
-            echo "<div class = 'day-box>";
+            echo "<div class = day-box>";
             echo "<b>$day: </b>";
 
             //conditions
