@@ -15,3 +15,4 @@
         for($i=0; $i<count($tasks); $i++){
             echo "<li>".$tasks[$i]."</li>";
         }
+        echo "</ul>";
