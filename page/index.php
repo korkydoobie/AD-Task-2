@@ -10,3 +10,8 @@
 
         echo "<h1>Today's Tasks: </h1>";
         echo "<ul>";
+
+        //loop
+        for($i=0; $i<count($tasks); $i++){
+            echo "<li>".$tasks[$i]."</li>";
+        }
