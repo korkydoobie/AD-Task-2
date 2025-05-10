@@ -30,5 +30,6 @@
             echo "</div>";
         }
         ?>
+        <a href="page/index.php" class="button">View Tasks for Today</a>
     </body>
 </html>
