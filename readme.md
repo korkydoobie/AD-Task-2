@@ -66,8 +66,7 @@ This is a project that aims to showcase the basics of programming. This project 
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 
-- Authentication & Authorization
-- CRUD Operations for Invetory System
+- Page switching using button
 
 ### Technology
 
@@ -127,9 +126,7 @@ AD-ProjectName
 
 <!-- TODO: Add References -->
 
-| Title        | Purpose                                                                       | Link          |
-| ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Title         | Purpose                                                                       | Link                                              |
+| ------------  | ----------------------------------------------------------------------------- | -------------                                     |
+| PHP For Loops | To undestand how to make for loops using PHP                                  | https://www.w3schools.com/php/php_looping_for.asp |
+
