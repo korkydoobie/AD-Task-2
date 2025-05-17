@@ -1,5 +1,5 @@
 <?php
-    function displayTasks(array $day, array $tasks){
+    function displayTasks(array $days, array $tasks){
        echo '<div class="cards">';
        foreach ($days as $day){
         echo '<div class"card" onclick="toggleTasks(\'' . $day . '\')">';
