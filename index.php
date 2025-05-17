@@ -12,6 +12,6 @@
             </div>
         </div>
 
-        <button class="login-btn" onclick=""> Login </button>
+        <a href="/page/index.php" class="login-btn">Login</a>
     </body>
 </html>
