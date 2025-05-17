@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Tasks</title>
-        <link rel="stylesheet" href="assets/css/tasksPage.css">
-    </head>
+<head>
+    <title>Activity</title>
+    <link rel="stylesheet" href="assets/css/tasksPage.css">
+</head>
     <body>
-        <?php
-            echo "<h1>Today's Tasks: </h1>";
-            echo "<ul>";
+        <div class="container">
+            <?php
+            REQUIRE_ONCE BASE_PATH . '/handlers/data.handler.php';
+            REQUIRE_ONCE BASE_PATH . '/utils/displayTasks.utils.php';
 
-            //loop
-            for($i=0; $i<count($tasks); $i++){
-                echo "<li>".$tasks[$i]."</li>";
-            }
-            echo "</ul>";
-        ?>
-        <a href="../../index.php" class="button">Back to Weekly Routine</a>
+            displayTasks($days, $tasks);
+            ?>
+            
+            <div id="task-display" class="task-display">
+                <h2 id="selected-day">Select a day</h2>
+                <ul id="selected-tasks"></ul>
+            </div>
+        </div>
+        <script src="/page/assets/js/script.js"></script>
     </body>
 </html>
