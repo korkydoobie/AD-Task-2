@@ -18,6 +18,7 @@
                 <ul id="selected-tasks"></ul>
             </div>
         </div>
+        <a href="../index.php" class="logout-btn">Logout</a>
         <script src="/page/assets/js/script.js"></script>
     </body>
 </html>
