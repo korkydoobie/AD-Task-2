@@ -7,8 +7,7 @@
     <body>
         <?php
         REQUIRE_ONCE __DIR__ . '/handlers/data.handler.php';
-        REQUIRE_ONCE __DIR__ . '/utils/functions.utils.php';
-        INCLUDE_ONCE __DIR__ . '/components/nav.component.php';
+        REQUIRE_ONCE __DIR__ . '/utils/displayTasks.utils.php';
 
         echo"Hello";
         ?>
