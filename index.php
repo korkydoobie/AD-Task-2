@@ -6,7 +6,7 @@
 </head>
     <body>
         <?php
-        $username = "LeSunshine";
+        $username = "LeSunshine Gems";
         $password = "*********";
         ?>
         <div class="login-box">
@@ -14,8 +14,9 @@
                 <b>Username:</b> <?php echo $username; ?>
                 <b>Password:</b> <?php echo $password; ?>
             </div>
+            <div class="btn-container">
+                <a href="/page/index.php" class="login-btn">Login</a>
+            </div>
         </div>
-
-        <a href="/page/index.php" class="login-btn">Login</a>
     </body>
 </html>
