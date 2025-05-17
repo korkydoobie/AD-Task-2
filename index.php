@@ -5,19 +5,13 @@
     <link rel="stylesheet" href="assets/css/landingPage.css">
 </head>
     <body>
-        <div class="container">
-            <?php
-            REQUIRE_ONCE __DIR__ . '/handlers/data.handler.php';
-            REQUIRE_ONCE __DIR__ . '/utils/displayTasks.utils.php';
-
-            displayTasks($days, $tasks);
-            ?>
-            
-            <div id="task-display" class="task-display">
-                <h2 id="selected-day">Select a day</h2>
-                <ul id="selected-tasks"></ul>
+        <div class="login-box">
+            <div class="info-box">
+                <p><b>Username: </b> LeSunshine.Gems</p>
+                <p><b>Password: </b> **********</p>
             </div>
         </div>
-        <script src="assets/js/script.js"></script>
+
+        <button class="login-btn" onclick=""> Login </button>
     </body>
 </html>
