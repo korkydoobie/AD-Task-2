@@ -5,10 +5,15 @@
     <link rel="stylesheet" href="assets/css/landingPage.css">
 </head>
     <body>
+        <?php
+        $username = "LeSunshine";
+        $password = "*********";
+        ?>
         <div class="login-box">
             <div class="credential">
-                <b>Username:</b> LeSunshine
-                <b>Password:</b> *********
+                <b>Username:</b> <?php echo $username; ?>
+                <b>Password:</b> <?php echo $password; ?>
+            </div>
         </div>
 
         <a href="/page/index.php" class="login-btn">Login</a>
