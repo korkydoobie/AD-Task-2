@@ -2,14 +2,15 @@
 <html>
 <head>
     <title>Activity</title>
-    <link rel="stylesheet" href="assets/css/landingPage.css">
+    <!-- <link rel="stylesheet" href="assets/css/landingPage.css"> -->
 </head>
     <body>
         <?php
         REQUIRE_ONCE __DIR__ . '/handlers/data.handler.php';
         REQUIRE_ONCE __DIR__ . '/utils/displayTasks.utils.php';
 
-        echo"Hello";
+        displayTasks($days, $tasks);
         ?>
+        <script src="assets/js/script.js"></script>
     </body>
 </html>
