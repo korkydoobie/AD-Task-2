@@ -8,7 +8,7 @@
   <!-- TODO: If you want to add logo or banner you can add it here -->
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Weekly Todo List</h3>
+  <h3 align="center">Weekly Task</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
@@ -19,10 +19,9 @@
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 
-![](https://visit-counter.vercel.app/counter.png?page=korkydoobie/AD-TASK-1)
+![](https://visit-counter.vercel.app/counter.png?page=korkydoobie/AD-TASK-2)
 
-[![wakatime](https://wakatime.com/badge/user/60539570-3987-493f-80b9-ae1acdd3eed1/project/274dbb6f-b98e-4aee-82b4-07a9671b74d6.svg)](https://wakatime.com/badge/user/60539570-3987-493f-80b9-ae1acdd3eed1/project/274dbb6f-b98e-4aee-82b4-07a9671b74d6)
-
+[![wakatime](https://wakatime.com/badge/user/60539570-3987-493f-80b9-ae1acdd3eed1/project/2d2610bb-7a9a-4e16-9fa4-705fd8ce091e.svg)](https://wakatime.com/badge/user/60539570-3987-493f-80b9-ae1acdd3eed1/project/2d2610bb-7a9a-4e16-9fa4-705fd8ce091e)
 ---
 
 <br />
@@ -59,14 +58,16 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 
-This is a project that aims to showcase the basics of programming. This project has variable declarations, looping, and conditional statements.
+This is a project that is made up using fragmentation. Functions are made in the utils folder, arrays and dictionaries are declared in the handlers folder.
 
 ### Key Components
 
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 
-- Page switching using button
+- Login page with predefined username and password to avoid inputs
+- Clickable days of the week to show the tasks per day
+- Logout button to return to login page
 
 ### Technology
 
@@ -75,6 +76,7 @@ This is a project that aims to showcase the basics of programming. This project 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 
@@ -125,8 +127,4 @@ AD-ProjectName
 ## Resources
 
 <!-- TODO: Add References -->
-
-| Title         | Purpose                                                                       | Link                                              |
-| ------------  | ----------------------------------------------------------------------------- | -------------                                     |
-| PHP For Loops | To undestand how to make for loops using PHP                                  | https://www.w3schools.com/php/php_looping_for.asp |
 
