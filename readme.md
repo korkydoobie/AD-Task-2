@@ -127,4 +127,9 @@ AD-ProjectName
 ## Resources
 
 <!-- TODO: Add References -->
+| Title             | Purpose                                                                       | Link                                                     |
+| ------------      | ----------------------------------------------------------------------------- | ---------------------------------------------------------|
+| Fragmentation     | To understand better how to use fragmentation                                 | chatgpt.com                                              |
+| Javascript Events | To find the right event to use                                                | https://www.w3schools.com/js/js_events.asp               |
+| Associative Array | TO understand how to declare dictionary (associative array) in php            | https://www.w3schools.com/php/php_arrays_associative.asp |
 
